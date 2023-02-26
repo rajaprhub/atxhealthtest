@@ -153,19 +153,20 @@ body {
     background-color: #00092a;
     margin-top: 50px;
     padding: 2%;
-    border:1px solid greenyellow ;
+    /* border:1px solid greenyellow ; */
   }
 
   .map{
     width: 50%;
-    border:1px solid greenyellow ;
+    /* border:1px solid greenyellow ; */
     background-image: url(./image/map.svg);
   }
 .mapdetails{
     width: 45%;
+    padding-left: 2%;
     display: flex;
     flex-direction: column;
-    border:1px solid greenyellow ;
+    /* border:1px solid greenyellow ; */
 }
 
 .maptrust {
@@ -185,4 +186,58 @@ body {
    line-height: 24px;
    color: #FFFFFF;
     font-family: "Poppins", sans-serif;
+  }
+
+  .cccmain_box{
+    width: 95%;
+    padding-left: 2%;
+    /* border: 1px solid blueviolet; */
+  }
+
+  .ccclorembox {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    padding-left: 2%;
+    gap: 10px;
+    margin-bottom: 3rem;
+    margin-top: 3rem ;
+    /* border: 1px solid red; */
+  }
+  .ccclogodiv {
+    width: 80px;
+    height: 80px;
+    background-color: #0f1535;
+  }
+
+  .maptextlogo {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    left: 23px;
+    top: 28px;
+  }
+
+  .ccclogohd {
+    width: 392px;
+    height: 80px;
+   }
+
+  .ccclogohead {
+  
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+  }
+  .ccclogodesc {
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
   }
