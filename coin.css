@@ -27,11 +27,11 @@ body {
    }
 
 .group {
-    position: absolute;
+    /* position: absolute; */
     margin-left: 7.2%;
     margin-right: 27.15%;
     margin-top: 5.84%;
-    margin-bottom: 91.69%;
+    margin-bottom: 1.69%;
   }
   .line1 {
     font-family: 'Poppins';
@@ -49,4 +49,96 @@ body {
     line-height: 30px;
     color: #FFFFFF;
    
+  }
+
+  .cryptochart {
+      border:1px solid red ;
+      display: flex;
+      flex-direction: column;
+     align-items: flex-start;
+     
+
+   }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 90%;
+    padding: 1%;
+    margin: 1px auto;
+    border:1px solid greenyellow ;
+  }
+
+  tr,td {
+    font-size: 20px;
+    padding: 1%;
+   
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  .th {
+    font-size: 20px;
+    color: white;
+    padding-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+  .headingname {
+    text-align: left;
+  }
+  .symbol {
+    width: 40px;
+    height: 40px;
+  }
+  .name {
+    position: relative;
+    top: -14px;
+    width: 72px;
+    height: 30px;
+    margin-right: 19px;
+    margin-left: 23px;
+    font-size: 20px;
+    color: white;
+  }
+  .rate {
+    position: relative;
+    top: -14px;
+    font-size: 16px;
+    color: gray;
+  }
+  .pricebox {
+    position: relative;
+    left: 31px;
+  }
+  .timebox {
+    position: relative;
+    left: 72px;
+  }
+  .graphbox {
+    position: relative;
+    left: 30px;
+  }
+  .marketbox {
+    position: relative;
+    left: 64px;
+  }
+  .green {
+    color: #14ff00;
+  }
+  .red {
+    color: #ff0000;
+  }
+  .buttonbox {
+    width: 200px;
+    height: 60px;
+    border: 1px solid #3dd8ee;
+    border-radius: 8px;
+    margin: 25px auto;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #3DD8EE 0%, #0997E8 100%);
+  }
+  .button {
+    font-size: 24px;
+    margin: auto;
+    color: #FFFFFF;
+    background-color: transparent;
   }
