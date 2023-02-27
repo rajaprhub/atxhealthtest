@@ -147,8 +147,8 @@ body {
 
   .mapmaobox {
     width: 95%px;
-    height: 651px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     gap: 2%;
     background-color: #00092a;
     margin-top: 50px;
@@ -156,13 +156,19 @@ body {
     /* border:1px solid greenyellow ; */
   }
 
+  @media all and (min-width: 320px) and (max-width: 479px) {
+    .mapmaobox {
+      grid-template-columns: repeat(1, 1fr);
+    
+    }
+  }
   .map{
-    width: 50%;
+  
     /* border:1px solid greenyellow ; */
     background-image: url(./image/map.svg);
   }
 .mapdetails{
-    width: 45%;
+  
     padding-left: 2%;
     display: flex;
     flex-direction: column;
@@ -241,3 +247,164 @@ body {
     line-height: 24px;
     color: #FFFFFF;
   }
+
+
+
+  .reasonbox {
+    display: flex;
+    padding: 2%;
+  }
+  .leftbox {
+    width: 537px;
+    margin-left: 100px;
+    margin-right: 110px;
+  }
+  .leftboxhead {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: white;
+    margin-top: 50px;
+  }
+  .leftboxtext {
+    display: flex;
+    margin-top: 50px;
+  }
+  .leftboxlogo {
+    width: 30px;
+    height: 30px;
+  }
+  .leftboxtext1 {
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    margin-left: 15px;
+    margin-bottom: 5px;
+  }
+  .leftboxtext2 {
+  
+    margin-left: 45px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .rightbox {
+    width: 601px;
+    height: 732px;
+  }
+  .rightboxin1 {
+    width: 583.5px;
+    height: 63.5px;
+    margin-top: 228px;
+  }
+  .rightboxin2 {
+    width: 585px;
+    height: 77.5px;
+    margin-top: 3.5px;
+  }
+  .rightboxin3 {
+    width: 601px;
+    height: 53.5px;
+  }
+  .rightboxin4 {
+    width: 585px;
+    height: 77.5px;
+    margin-top: 5px;
+  }
+  .rightboxin5 {
+    width: 601px;
+    height: 53.5px;
+  }
+  .rightmainbox {
+    width: 365px;
+    height: 532px;
+    position: absolute;
+    left: 869px;
+    top: 2022px;
+    background: linear-gradient(
+      180.04deg,
+      rgba(4, 19, 52, 0.78) -3.16%,
+      rgba(15, 37, 84, 0.62) 99.42%
+    );
+    border: 2px solid #142346;
+    backdrop-filter: blur(1px);
+    border-radius: 50px;
+
+    margin-top: -45px;
+  }
+  .rightmainboxhead {
+    width: 288px;
+    height: 36px;
+    margin-top: 44px;
+    margin-left: 39px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: white;
+    /* border: 1px solid red; */
+  }
+  .rightboxtable {
+    width: 283px;
+    height: 60px;
+    margin-top: 28px;
+    margin-left: 41px;
+    display: flex;
+  }
+  .rightboxdata {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    border-radius: 360px;
+  }
+  .rightboxhr {
+    margin-top: 20px;
+  }
+  .rightboxdata2 {
+    width: 80px;
+    height: 60px;
+    margin-left: 20px;
+  }
+  .rightboxdatatext {
+    position: relative;
+    left: 20px;
+    width: 61px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+  }
+  .rightboxdatatext1 {
+    position: relative;
+    width: 31px;
+    height: 24px;
+    left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .rightboxdata3 {
+    width: 70px;
+    height: 27px;
+    position: relative;
+    left: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #00ff47;
+  }
+  .uparrow {
+    width: 15px;
+    height: 20px;
+  }
+
+  
