@@ -252,7 +252,7 @@ body {
 
   .reasonbox {
     display: flex;
-    padding: 2%;
+    padding: 1%;
   }
   .leftbox {
     width: 537px;
@@ -336,7 +336,6 @@ body {
     border: 2px solid #142346;
     backdrop-filter: blur(1px);
     border-radius: 50px;
-
     margin-top: -45px;
   }
   .rightmainboxhead {
@@ -408,3 +407,75 @@ body {
   }
 
   
+.cssbox {
+  width: 100%;
+  margin-top: 10px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2,1fr);
+  background-color: #00092a;
+  /* border:  1px solid red; */
+}
+.lastboxleft {
+  width: 100% ;
+}
+
+.lastboxlogo {
+  position: relative;
+  left: 104px;
+  top: 50px;
+}
+.lastboxtext {
+  position: relative;
+  top: 80px;
+  left: 75px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.lastboxright {
+  width: 75%;
+  height: 415px;
+  display: flex;
+  justify-content: space-between;
+}
+.lastboxdata {
+  margin-top: 45px;
+
+  color: #ffffff;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.company,
+.social,
+.support {
+  font-size: 16px;
+  margin-top: 20px;
+}
+.footerbox {
+  text-align: center;
+  background: transparent;
+  color: white;
+  height: 50px;
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
